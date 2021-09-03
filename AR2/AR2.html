@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0, user-scale=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">  
+    <title>Componentes de bootstrap</title>
+</head>
+<body>
+<h1>COMPONENTES DE BOOTSTRAP</h1>
+<hr>
+<!--Grupo de campos de formularios-->
+<div class="row">
+    <div class="col-lg-6">
+      <div class="input-group">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">Buscar</button>
+        </span>
+        <input type="text" class="form-control">
+      </div>
+    </div>   
+</div>
+
+<!-- Menu de navegacion -->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="navbar-header"></div>       
+       <ul class="nav navbar-nav">
+             <li><a href="#">Inicio</a></li>
+             <li><a href="#">Promociones</a></li>
+             <li><a href="#">Autores</a></li>
+             <li><a href="#">Recomendaciones</a></li>
+       </ul>
+</nav>
+
+<!--Migas de pan-->
+<ol class="breadcrumb">
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Libros</a></li>
+    <li class="active">Frases</li>
+</ol>
+
+<!--Jumbotron-->
+<div class="jumbotron">
+    <div class="container">
+      <h1>Si las personas fueran constelaciones </h1>
+      <p>Cuando ves una a color aprecias las distintas tonalidades de esta.En cambio, una que carece de ellos, el espectador vera la foto, no los colores. Las personas se distraen con la gama y no con el objetivo que el fotografo captura.</p>
+      <p><a class="btn btn-primary btn-lg" role="button">Leer más</a></p>
+      <!--Iconos-->
+<div class="btn-toolbar" role="toolbar">
+    <button type="button" class="btn btn-default ">
+      <span class="glyphicon glyphicon-cloud-download"></span> Cloud download
+    </button>       
+</div>
+    </div>
+</div>
+
+<!--Paneles-->
+<div class="panel panel-primary">Puedes encontrar mas libros dando click en la seccion de abajo </div>
+
+<!--Lista de elementos-->
+<ul class="list-group">
+    <li class="list-group-item">
+      <span class="badge">14</span>
+      Libros
+    </li>
+</ul>
+
+<!--Paginacion-->
+<ul class="pagination" >    
+    <li><a href="#">&laquo; Newest</a></li>
+    <li><a href="#">&lt; Newer</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">Older &gt;</a></li>
+    <li><a href="#">Oldest &raquo</a></li>
+    
+</ul>
+
+<!--Barras de progreso-->
+<div class="progress progress-striped active">
+    <div class="progress-bar" role="progressbar"
+         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"
+         style="width: 100%">
+      <span class="sr-only">100% completado</span>
+    </div>
+</div>
+
+<!--Mensajes de alerta-->
+<div class="alert alert-success">Completado!!!</div>
+
+</body>
+</html>
